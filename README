@@ -1,0 +1,28 @@
+This is a Jump Table program written for the bash shell.
+
+It allows a user to quickly change from one directory to another
+as well as a quick reference to commonly used directories on the system.
+
+The program stores the configuration in a file named ".jump_table"
+located by default in your home directory.
+
+Installation is simple: add contents of j.bash file to your .bash_profile.
+When you log into the system again (or restart bash) the function will be
+available for use.
+
+This program has been verified to work in bash version 3.X.X and several
+Linux distributions including Red Hat, OpenSuSE and Slackware.
+
+The program requires several common commands to operate:
+
+cat
+cp
+grep
+pwd
+sed
+
+I have kept its functionality as simple as possible. One possible
+improvement could include the ability to create several jump table files
+for use in different types of tasks.
+
+Steven Schronk
